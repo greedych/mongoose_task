@@ -17,7 +17,7 @@ mongoose
     console.log("Successfully connected to MongoDB");
   })
   .catch((error) => {
-    console.error("Faild connected to MongoDB");
+    console.error("Faild connected to MongoDB", error);
   });
 
 app.listen(PORT, () => {
